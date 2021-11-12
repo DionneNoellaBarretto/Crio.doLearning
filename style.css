@@ -2,12 +2,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(240, 242, 245);
     font-size: 20px;
+    margin: 1em;
 }
 
 h1 {
-    color: rgb(7, 83, 83);
+    color: rgb(20, 240, 240);
     font-weight: 700;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: rgb(25, 47, 248);
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
 img {
@@ -16,6 +23,10 @@ img {
     position: absolute;
     top: 20%;
     right: 0;
+}
+
+strong {
+    text-decoration: underline;
 }
 
 .container {
