@@ -4,311 +4,352 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+  <!-- bootstrap link -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    -->
   <link rel="stylesheet" href="style.css" />
   <title>Learning By Doing!</title>
 </head>
 
 <body>
-  <br class="container">
-  <h1> <a href="https://sites.google.com/criodo.com/crio-fe-1-nov/home#h.e6m9jtr2gs9y">Crio Full Stack Developer Track -
+
+  
+
+  <h1 class="container"> <a href="https://sites.google.com/criodo.com/crio-fe-1-nov/home#h.e6m9jtr2gs9y">Crio Full Stack
+      Developer Track -
       Learnings/Takeaways</a></h1>
-  <strong> <a href="https://drive.google.com/file/d/1a8IylA6PMj--J7bPtMhQLa9QPPmnPF_C/view?usp=sharing">
-      Orientation </a> | <a href="https://sites.google.com/criodo.com/crio-premium/fullstack"> Site</a></strong>
-  <h2>
-    <a href="https://gitlab.crio.do/COHORT_ME_GIT_BASICS_ENROLL_1596802014715/denverdionne-ME_GIT_BASICS.git">Git
-      Basics
-    </a>
-  </h2>
-  <div>
-    <br /> <strong> References :</strong> <br />
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-    <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet </a><br />
-
-    <a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git">
-      A Short History of Git </a><br />
-
-    <a href="https://www.atlassian.com/git/tutorials/using-branches">
-      Branches in Git</a><br />
-
-    <a href="https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562">What is the git
-      folder?</a><br />
-
-    <a href="https://stackabuse.com/git-add-all-files-to-a-repo/">
-      Git: Add All Files to a Repo</a><br />
-
-    <a href="https://www.atlassian.com/git/tutorials/saving-changes/git-commit">Git: Commit syntax (Check "Common
-      options" section)</a><br />
-
-    <a href="http://udacity.github.io/git-styleguide/">Commit message style guide</a><br />
-
-    <a href="https://www.freecodecamp.org/news/git-pull-explained">Git Pull Explained </a><br />
-
-
-    <a href="https://blog.plover.com/prog/git-ff-error.html">"Remote contains work that you don’t have locally" error
-      explained</a><br />
-    <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts">About
-      Merge Conflict</a><br />
-
-    <a href="https://stackoverflow.com/q/24357108/9734484">Other ways to resolve the "Remote contains work that you
-      don’t have locally" error </a><br />
-
-    <br />
-    <div><strong> Summary :</strong> <br />
-      <p> Basic workflow in Git
-      <ul>
-        <li>You modify files in your working directory</li>
-
-        <li>You stage the files, adding snapshots of them to your staging area <strong>(git add file)</strong></li>
-
-        <li>You do a commit, which takes the files as they are in the staging area and stores that snapshot
-          permanently to your local Git repository <strong>(git commit file)</strong></li>
-
-        <li>You push the changes from the local repository to the remote repository <strong>(git push)</strong></li>
-
-        <li>You pull the changes from the remote repository to the local repository <strong>(git pull)</strong></li>
-      </ul>
-      </p>
-      <br />
-      <div><strong> Further Reading :</strong> <br />
-        Git offers several more features which help in maintaining code and collaborating with team members during
-        software development. For example - config, branch, stash, squash etc. You can explore these as needed. <br />
-
-        <a href="https://www.perforce.com/blog/vcs/what-is-version-control">What is Version Control?</a><br />
-
-        <a href="https://ohshitgit.com/">Oh Shit, Git!?!</a><br />
-
-        <a href="https://www.toptal.com/git/the-advanced-git-guide">The Advanced Git Guide</a><br />
-
-        <br />
-        Excited? Dig deeper to Git internals for answering the below questions<br />
-
-        <a href="https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi">What actually happens
-          within Git when we do a commit?</a><br />
-
-        <a href="https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html">Each commit gets a unique
-          ID, how is it created?</a><br />
-      </div>
-    </div>
-  </div>
-
-  <h2> <a href="https://gitlab.crio.do/crio_bytes/me_html_css.git">HTML_CSS </a></h2>
-  <strong>Slide pptx </strong> <br />
-
-  <a
-    href="https://docs.google.com/presentation/d/1b1t14o2tYNGG03nheUBCUwYoaqfSZkTZ/edit?usp=sharing&ouid=105816435444916249569&rtpof=true&sd=true">Session
-    1 </a> |
-  <a href="https://codesandbox.io/s/html-css-activity1-2-3-4-k6vpl"> FE:1 Activities and Exercises</a> | <a
-    href="https://www.crio.do/learn/home/activity-task/TASK_ACTIVITY_QUIZ_1_1627978727219"> Quiz 1</a> <br>
-  <a
-    href="https://docs.google.com/presentation/d/1b2Mcj--AjeoaLApfJtYYfeWVVckXXc1u/edit?usp=sharing&ouid=105816435444916249569&rtpof=true&sd=true">Session
-    2</a> | <a href="https://www.crio.do/learn/home/activity-task/TASK_ACTIVITY_QUIZ_1_1628172663241"> Quiz 2</a><br />
-
-  <br /> <strong> References :</strong> <br />
-  <a href="https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code">Code
-    Formatting with Prettier in Visual Studio Code
-
-  </a><br />
-  <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live server</a><br />
-  <a href="https://www.w3schools.com/tags/"> HTML Tags_W3School</a><br />
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> HTML
-    Basics</a><br />
-  <a href="https://www.educba.com/html5-vs-html4/"> HTML 5 vs HTML 4</a><br />
-  <a href="https://html.com/tags/doctype/"> DOCTYPE Declaration</a><br />
-  <a href="https://devpractical.com/display-html-tags-as-plain-text"> Display HTML tags as plain text</a><br />
-  <a href="https://stackoverflow.com/a/21334472"> HTML 4 "i" and “b” tags vs HTML 5 “em” and “strong” tags</a><br />
-  <a href="https://www.w3.org/WAI/tutorials/page-structure/regions/"> More semantic HTML5 alternatives to div
-    tag</a><br />
-  <a href="https://www.w3schools.com/html/html_attributes.asp"> HTML Attributes</a><br />
-  <a href="https://www.w3schools.com/html/html_entities.asp"> HTML Entities_W3School</a><br />
-  <a href="https://css-playground.com/view/53/box-model-introduction-playground"> CSS Playground</a><br />
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works"> How CSS works</a><br />
-  <a href="https://www.w3schools.com/css/css_specificity.asp"> CSS Specificity</a><br />
-  <a href="https://www.w3schools.com/css/css_comments.asp"> How to comment in CSS</a><br />
-  <a href="https://www.w3schools.com/css/css_font.asp"> CSS: font-family</a><br />
-  <a href="https://www.w3schools.com/css/css_display_visibility.asp"> CSS: display</a><br />
-  <a href="https://css-playground.com/view/53/box-model-introduction-playground"> CSS Box Model</a><br />
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"> CSS measurement
-    units</a><br />
-  <a href="https://developers.google.com/web/tools/chrome-devtools/css/reference#computed"> View CSS using Chrome
-    Developer Tools</a><br />
-  <a href="https://www.w3schools.com/html/html_id.asp"> HTML id attribute</a><br />
-  <a href="https://www.w3schools.com/html/html_classes.asp"> HTML class attribute</a><br />
-  <a href="https://www.w3schools.com/cssref/css_selectors.asp"> CSS Selectors</a><br />
-  <a href="https://css-tricks.com/the-difference-between-id-and-class/"> HTML ID and Class</a><br />
-  <a href="https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/"> When to use Class vs ID
-    in CSS</a><br />
-  <a href="https://youtu.be/K74l26pE4YA">CSS Flexbox in 100 seconds </a><br />
-  <a href="https://codepen.io/enxaneta/full/adLPwv/">Flexbox Playground </a><br />
-  <a href="https://flexboxfroggy.com/">[Game] Flexbox Froggy </a><br />
-  <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Guide to Flexbox </a><br />
-  <a href="https://tobiasahlin.com/blog/common-flexbox-patterns/">Common Flexbox Patterns </a><br />
-  <a href="https://yoksel.github.io/flex-cheatsheet/">FlexBox Properties Cheatsheet </a><br />
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">CSS: position</a><br />
-  <a href="https://www.youtube.com/watch?v=3PDQDRJq5Ls">[Video]CSS Absolute vs Relative </a><br />
-  <a href="https://alistapart.com/article/css-positioning-101/">CSS Positioning made easy </a><br />
-  <a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Learn CSS Positioning in just 10 steps
-  </a><br />
-  <a href="https://www.w3schools.com/tags/tag_a.asp">HTML "a" tag
-  </a><br />
-  <a href="https://www.w3schools.com/css/css_link.asp">CSS Styling Links
-  </a><br />
-  <a href="https://www.w3schools.com/cssref/pr_pos_overflow.asp">CSS: overflow
-  </a><br />
-  <a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">CSS: text-align
-  </a><br />
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">HTML: image
-  </a><br />
-  <a href="https://www.w3schools.com/css/css3_images.asp">CSS: styling images
-  </a><br />
-  <a href="https://unsplash.com/">Freely usable images
-  </a><br />
-  <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp">How to create a sticky footer
-  </a><br />
-  <a href="https://stackoverflow.com/a/10036181">Meaning of space in CSS selectors
-  </a><br />
-
-  <br />
-  <div><strong> Summary :</strong> <br />
-
-    <h4>Web development - includes client-side and server-side development
-      <h4>Frontend development (client-side)<br />
-        <ul>
-          <li>HTML - Structure</li>
-          <li>CSS - Style</li>
-          <li>JS - Functionality</li>
-        </ul>
-
-
-        <h4>Browser (client) communicates with the server on your behalf <ul>
-            <li>
-              HTTP is the language of
-              communication</li>
-            <li> Browser sends a request each for any extra information/resource it needs</li>
-          </ul>
-        </h4>
-
-        <hr />
-
-        <ul>
-          <li>HTML is used to describe the contents of your webpage </li>
-
-          <li> All HTML content goes inside the "htm" tag.</li>
-
-          <li> HTML document's metadata goes inside the "head" tag and all the content to be displayed inside the "body"
-            tag</li>
-
-          <li> There are different HTML tags to perform different actions</li>
-
-          <li> "b" - bolds text</li>
-
-          <li> "p" - wraps text as a paragraph</li>
-
-          <li> "a" - add hyperlink </li>
-
-          <li> CSS makes the HTML content look beautiful</li>
-
-          <li> CSS can be added to the HTML</li>
-
-          <li> Externally - linking css files</li>
-
-          <li> Internally - using "style" tag </li>
-
-          <li> Inline - using style attribute</li>
-
-          <li> CSS flexbox makes it easier to organize a group of elements</li>
-
-          <li> CSS positioning can be used to set the position of an HTML element in the web page. For example, you can
-            fix
-            an element to the top of the web page even when scrolling.
+          <li class="nav-item">
+            <a class="navbar-brand active"
+              href="https://drive.google.com/file/d/1a8IylA6PMj--J7bPtMhQLa9QPPmnPF_C/view?usp=sharing">
+              Orientation </a> | <a class="navbar-brand"
+              href="https://sites.google.com/criodo.com/crio-premium/fullstack"> Site</a>
           </li>
-          <li> Dead links are needed often when you want to add anchor elements to your page before you know where they
-            will point to. Remember that dead links always reload the page! To work around this link to # as a
-            placeholder value within "" of the href </li>
 
-          <li>Lists can be added using ul, ol tags with each item under li tag</li>
-          <li>Each HTML tag can have multiple attributes</li>
-          <li>Anchor tags are used for links, target attribute to define where to open the link</li>
-          <li>Links can be relative or absolute</li>
-          <ol type="a">
-            <li> <strong>Absolute links (or urls) </strong> ⇒ Full Web Address
-              <em>Example: </em> "https://resuminator.in", "https://crio.do"
-            </li>
-            <li> <strong>Relative URL</strong> ⇒ A link to page within the website i.e. without the https:// or www part
-            </li>
-            <em>Example:</em> "/home", "/about" <br />
-            <li>We can also link files like images or other pages using the relative URLs</li>
-            <em>Example:</em> "about/team.html" → Links to the team.html file in the about folder.
-          </ol>
-          <li>Id attribute uniquely identifies an HTML Element</li>
-          <li># can be used in anchor tag href to link to a section using its id</li>
-          <li>Images in HTML use the "img" tag with src, alt, width, and height attribute</li>
-
-
-
-
+          <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#git">Git Basics</a>
+          </li>
+          <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#htmlCss">HTML/CSS</a>
+          </li>
+          <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#developerTools">Developer Tools</a>
+          </li>
+          <li class="nav-item navbar-brand">
+            <a class="nav-link" href="#bootstrap">Bootstrap</a>
+          </li>
         </ul>
-        <div><strong> Further Reading :</strong> <br />
-          <a href="https://medium.com/@mustafa.abdelmogoud/how-the-browser-renders-html-css-27920d8ccaa6">How do
-            browsers render HTML</a><br />
-          <a href="https://stackoverflow.com/a/3170774">"auto" in CSS</a><br />
-          <a href="https://stackoverflow.com/a/22040485">What is aria-label and how should I use it?</a><br />
-          <a href="https://www.freecodecamp.org/news/html-role-attribute/">HTML Role Attribute Explained</a><br />
-          <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS">Handling
-            common HTML and CSS problems</a><br />
-
-        </div>
-      </h4>
-    </h4>
-  </div>
-
-  <h2> <a href="https://gitlab.crio.do/crio_bytes/me_developer_tools.git"> Developer Tools Byte </a></h2>
-  <div>
-    <br /> <strong> References :</strong> <br />
-    <a href="https://youtu.be/lU5AS5ntN2w">Chrome Developer Tools 101</a><br />
-    <a href="https://developer.chrome.com/docs/devtools/dom/#appendix">HTML vs DOM</a><br />
-    <a href="https://www.digitalocean.com/community/tutorials/devtools-color-picker"> Dev Tools Color picker</a><br />
-    <a href="https://css-tricks.com/specifics-on-css-specificity/"> CSS Color Specificity</a><br />
-    <a
-      href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model">CSS
-      Box Model</a><br />
-    <a href="https://www.smashingmagazine.com/2009/07/the-definitive-guide-to-using-negative-margins/">CSS negative
-      margins</a><br />
-    <a href="https://www.w3schools.com/cssref/css_selectors.asp"> CSS Selectors</a><br />
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"> CSS Box Sizing</a><br />
-    <br />
-    <div><strong> Summary :</strong> <br />
-      <ul>
-        <li>Developer Tools provides a set of views for Frontend Developers to utilise
-        </li>
-        <li> Networks tab allows to inspect network requests made by web applications</li>
-        <li>
-          Elements tab allows you to inspect HTML and CSS of a web page</li>
-        <li>
-          This comes in handy to debug CSS issues as well</li>
-        <li> Tools like the Box model view and Flexbox tool helps debugging easier</li>
-      </ul>
-
-      <br />
-      <div><strong> Further Reading :</strong> <br />
-        <a href="https://developers.google.com/web/tools/chrome-devtools/network">Using DevTools to inspect network
-          activity
-
-        </a><br />
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching">HTTP Caching</a><br />
-
-        <a href="https://developers.google.com/web/tools/chrome-devtools/dom">Get Started With Viewing And Changing The
-          DOM</a><br />
       </div>
     </div>
+  </nav>
+  <div class="git">
     <h2>
-      <a href="https://gitlab.crio.do/crio_bytes/me_bootstrap.git">Bootstrap
+      <a id="git"
+        href="https://gitlab.crio.do/COHORT_ME_GIT_BASICS_ENROLL_1596802014715/denverdionne-ME_GIT_BASICS.git"> Git
+        Basics
       </a>
     </h2>
-    <div>
+    <div class="container">
+      <br /> <strong> References :</strong> <br />
+
+      <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet </a><br />
+
+      <a href="https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git">
+        A Short History of Git </a><br />
+
+      <a href="https://www.atlassian.com/git/tutorials/using-branches">
+        Branches in Git</a><br />
+
+      <a href="https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562">What is the git
+        folder?</a><br />
+
+      <a href="https://stackabuse.com/git-add-all-files-to-a-repo/">
+        Git: Add All Files to a Repo</a><br />
+
+      <a href="https://www.atlassian.com/git/tutorials/saving-changes/git-commit">Git: Commit syntax (Check "Common
+        options" section)</a><br />
+
+      <a href="http://udacity.github.io/git-styleguide/">Commit message style guide</a><br />
+
+      <a href="https://www.freecodecamp.org/news/git-pull-explained">Git Pull Explained </a><br />
+
+
+      <a href="https://blog.plover.com/prog/git-ff-error.html">"Remote contains work that you don’t have locally" error
+        explained</a><br />
+      <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts">About
+        Merge Conflict</a><br />
+
+      <a href="https://stackoverflow.com/q/24357108/9734484">Other ways to resolve the "Remote contains work that you
+        don’t have locally" error </a><br />
+
+      <br />
+      <div><strong> Summary :</strong> <br />
+        <p> Basic workflow in Git
+        <ul>
+          <li>You modify files in your working directory</li>
+
+          <li>You stage the files, adding snapshots of them to your staging area <strong>(git add file)</strong></li>
+
+          <li>You do a commit, which takes the files as they are in the staging area and stores that snapshot
+            permanently to your local Git repository <strong>(git commit file)</strong></li>
+
+          <li>You push the changes from the local repository to the remote repository <strong>(git push)</strong></li>
+
+          <li>You pull the changes from the remote repository to the local repository <strong>(git pull)</strong></li>
+        </ul>
+        </p>
+        <br />
+        <div><strong> Further Reading :</strong> <br />
+          Git offers several more features which help in maintaining code and collaborating with team members during
+          software development. For example - config, branch, stash, squash etc. You can explore these as needed. <br />
+
+          <a href="https://www.perforce.com/blog/vcs/what-is-version-control">What is Version Control?</a><br />
+
+          <a href="https://ohshitgit.com/">Oh Shit, Git!?!</a><br />
+
+          <a href="https://www.toptal.com/git/the-advanced-git-guide">The Advanced Git Guide</a><br />
+
+          <br />
+          Excited? Dig deeper to Git internals for answering the below questions<br />
+
+          <a href="https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi">What actually happens
+            within Git when we do a commit?</a><br />
+
+          <a href="https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html">Each commit gets a unique
+            ID, how is it created?</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="htmlCss">
+    <h2> <a id="htmlCss" href="https://gitlab.crio.do/crio_bytes/me_html_css.git">HTML_CSS </a></h2>
+    <div class="container">
+      <strong>Slide pptx </strong> <br />
+
+      <a
+        href="https://docs.google.com/presentation/d/1b1t14o2tYNGG03nheUBCUwYoaqfSZkTZ/edit?usp=sharing&ouid=105816435444916249569&rtpof=true&sd=true">Session
+        1 </a> |
+      <a href="https://codesandbox.io/s/html-css-activity1-2-3-4-k6vpl"> FE:1 Activities and Exercises</a> | <a
+        href="https://www.crio.do/learn/home/activity-task/TASK_ACTIVITY_QUIZ_1_1627978727219"> Quiz 1</a> <br>
+      <a
+        href="https://docs.google.com/presentation/d/1b2Mcj--AjeoaLApfJtYYfeWVVckXXc1u/edit?usp=sharing&ouid=105816435444916249569&rtpof=true&sd=true">Session
+        2</a> | <a href="https://www.crio.do/learn/home/activity-task/TASK_ACTIVITY_QUIZ_1_1628172663241"> Quiz
+        2</a><br />
+
+      <br /> <strong> References :</strong> <br />
+      <a href="https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code">Code
+        Formatting with Prettier in Visual Studio Code
+
+      </a><br />
+      <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live server</a><br />
+      <a href="https://www.w3schools.com/tags/"> HTML Tags_W3School</a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> HTML
+        Basics</a><br />
+      <a href="https://www.educba.com/html5-vs-html4/"> HTML 5 vs HTML 4</a><br />
+      <a href="https://html.com/tags/doctype/"> DOCTYPE Declaration</a><br />
+      <a href="https://devpractical.com/display-html-tags-as-plain-text"> Display HTML tags as plain text</a><br />
+      <a href="https://stackoverflow.com/a/21334472"> HTML 4 "i" and “b” tags vs HTML 5 “em” and “strong” tags</a><br />
+      <a href="https://www.w3.org/WAI/tutorials/page-structure/regions/"> More semantic HTML5 alternatives to div
+        tag</a><br />
+      <a href="https://www.w3schools.com/html/html_attributes.asp"> HTML Attributes</a><br />
+      <a href="https://www.w3schools.com/html/html_entities.asp"> HTML Entities_W3School</a><br />
+      <a href="https://css-playground.com/view/53/box-model-introduction-playground"> CSS Playground</a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works"> How CSS works</a><br />
+      <a href="https://www.w3schools.com/css/css_specificity.asp"> CSS Specificity</a><br />
+      <a href="https://www.w3schools.com/css/css_comments.asp"> How to comment in CSS</a><br />
+      <a href="https://www.w3schools.com/css/css_font.asp"> CSS: font-family</a><br />
+      <a href="https://www.w3schools.com/css/css_display_visibility.asp"> CSS: display</a><br />
+      <a href="https://css-playground.com/view/53/box-model-introduction-playground"> CSS Box Model</a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"> CSS measurement
+        units</a><br />
+      <a href="https://developers.google.com/web/tools/chrome-devtools/css/reference#computed"> View CSS using Chrome
+        Developer Tools</a><br />
+      <a href="https://www.w3schools.com/html/html_id.asp"> HTML id attribute</a><br />
+      <a href="https://www.w3schools.com/html/html_classes.asp"> HTML class attribute</a><br />
+      <a href="https://www.w3schools.com/cssref/css_selectors.asp"> CSS Selectors</a><br />
+      <a href="https://css-tricks.com/the-difference-between-id-and-class/"> HTML ID and Class</a><br />
+      <a href="https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/"> When to use Class vs
+        ID
+        in CSS</a><br />
+      <a href="https://youtu.be/K74l26pE4YA">CSS Flexbox in 100 seconds </a><br />
+      <a href="https://codepen.io/enxaneta/full/adLPwv/">Flexbox Playground </a><br />
+      <a href="https://flexboxfroggy.com/">[Game] Flexbox Froggy </a><br />
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Guide to Flexbox </a><br />
+      <a href="https://tobiasahlin.com/blog/common-flexbox-patterns/">Common Flexbox Patterns </a><br />
+      <a href="https://yoksel.github.io/flex-cheatsheet/">FlexBox Properties Cheatsheet </a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">CSS: position</a><br />
+      <a href="https://www.youtube.com/watch?v=3PDQDRJq5Ls">[Video]CSS Absolute vs Relative </a><br />
+      <a href="https://alistapart.com/article/css-positioning-101/">CSS Positioning made easy </a><br />
+      <a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Learn CSS Positioning in just 10
+        steps
+      </a><br />
+      <a href="https://www.w3schools.com/tags/tag_a.asp">HTML "a" tag
+      </a><br />
+      <a href="https://www.w3schools.com/css/css_link.asp">CSS Styling Links
+      </a><br />
+      <a href="https://www.w3schools.com/cssref/pr_pos_overflow.asp">CSS: overflow
+      </a><br />
+      <a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">CSS: text-align
+      </a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">HTML: image
+      </a><br />
+      <a href="https://www.w3schools.com/css/css3_images.asp">CSS: styling images
+      </a><br />
+      <a href="https://unsplash.com/">Freely usable images
+      </a><br />
+      <a href="https://www.w3schools.com/howto/howto_css_fixed_footer.asp">How to create a sticky footer
+      </a><br />
+      <a href="https://stackoverflow.com/a/10036181">Meaning of space in CSS selectors
+      </a><br />
+
+      <br />
+      <div>
+        <strong> Summary :</strong> <br />
+
+        <h6>Web development - includes client-side and server-side development
+          <h6>Frontend development (client-side)<br />
+            <ul>
+              <li>HTML - Structure</li>
+              <li>CSS - Style</li>
+              <li>JS - Functionality</li>
+            </ul>
+
+
+            <h6>Browser (client) communicates with the server on your behalf <ul>
+                <li>
+                  HTTP is the language of
+                  communication</li>
+                <li> Browser sends a request each for any extra information/resource it needs</li>
+              </ul>
+            </h6>
+
+            <hr />
+
+            <div>
+              <ol type="I">
+                <li>HTML is used to describe the contents of your webpage </li>
+                <li> All HTML content goes inside the "htm" tag.</li>
+                <li> HTML document's metadata goes inside the "head" tag and all the content to be displayed inside the
+                  "body"
+                  tag</li>
+                <li> There are different HTML tags to perform different actions</li>
+                <li> "b" - bolds text</li>
+                <li> "p" - wraps text as a paragraph</li>
+                <li> "a" - add hyperlink </li>
+                <li> CSS makes the HTML content look beautiful</li>
+                <li> CSS can be added to the HTML</li>
+                <li> Externally - linking css files</li>
+                <li> Internally - using "style" tag </li>
+                <li> Inline - using style attribute</li>
+                <li> CSS flexbox makes it easier to organize a group of elements</li>
+                <li> CSS positioning can be used to set the position of an HTML element in the web page. For example,
+                  you
+                  can
+                  fix
+                  an element to the top of the web page even when scrolling.
+                </li>
+                <li> Dead links are needed often when you want to add anchor elements to your page before you know where
+                  they
+                  will point to. Remember that dead links always reload the page! To work around this link to # as a
+                  placeholder value within "" of the href </li>
+                <li>Lists can be added using ul, ol tags with each item under li tag</li>
+                <li>Each HTML tag can have multiple attributes</li>
+                <li>Anchor tags are used for links, target attribute to define where to open the link</li>
+                <li>Links can be relative or absolute</li>
+                <li> Absolute links (or urls) ⇒ Full Web Address
+                  Example: "https://resuminator.in", "https://crio.do"
+                </li>
+                <li> Relative URL ⇒ A link to page within the website i.e. without the https:// or www
+                  part
+                </li>
+                Example: "/home", "/about"
+                <li>We can also link files like images or other pages using the relative URLs</li>
+                Example: "about/team.html" → Links to the team.html file in the about folder.
+
+                <li>Id attribute uniquely identifies an HTML Element</li>
+                <li># can be used in anchor tag href to link to a section using its id</li>
+                <li>Images in HTML use the "img" tag with src, alt, width, and height attribute</li>
+              </ol>
+            </div>
+
+            <div><strong> Further Reading :</strong> <br />
+              <a href="https://medium.com/@mustafa.abdelmogoud/how-the-browser-renders-html-css-27920d8ccaa6">How do
+                browsers render HTML</a><br />
+              <a href="https://stackoverflow.com/a/3170774">"auto" in CSS</a><br />
+              <a href="https://stackoverflow.com/a/22040485">What is aria-label and how should I use it?</a><br />
+              <a href="https://www.freecodecamp.org/news/html-role-attribute/">HTML Role Attribute Explained</a><br />
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS">Handling
+                common HTML and CSS problems</a><br />
+            </div>
+          </h6>
+        </h6>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="developerTools">
+    <h2> <a id="developerTools" href="https://gitlab.crio.do/crio_bytes/me_developer_tools.git">
+        Developer Tools Byte </a>
+    </h2>
+    <div class="container">
+      <br /> <strong> References :</strong> <br />
+      <a href="https://youtu.be/lU5AS5ntN2w">Chrome Developer Tools 101</a><br />
+      <a href="https://developer.chrome.com/docs/devtools/dom/#appendix">HTML vs DOM</a><br />
+      <a href="https://www.digitalocean.com/community/tutorials/devtools-color-picker"> Dev Tools Color picker</a><br />
+      <a href="https://css-tricks.com/specifics-on-css-specificity/"> CSS Color Specificity</a><br />
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model">CSS
+        Box Model</a><br />
+      <a href="https://www.smashingmagazine.com/2009/07/the-definitive-guide-to-using-negative-margins/">CSS negative
+        margins</a><br />
+      <a href="https://www.w3schools.com/cssref/css_selectors.asp"> CSS Selectors</a><br />
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"> CSS Box Sizing</a><br />
+      <br />
+      <div>
+        <strong> Summary :</strong> <br />
+        <ul>
+          <li>Developer Tools provides a set of views for Frontend Developers to utilise
+          </li>
+          <li> Networks tab allows to inspect network requests made by web applications</li>
+          <li>
+            Elements tab allows you to inspect HTML and CSS of a web page</li>
+          <li>
+            This comes in handy to debug CSS issues as well</li>
+          <li> Tools like the Box model view and Flexbox tool helps debugging easier</li>
+        </ul>
+
+        <br />
+        <div><strong> Further Reading :</strong> <br />
+          <a href="https://developers.google.com/web/tools/chrome-devtools/network">Using DevTools to inspect network
+            activity
+
+          </a><br />
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching">HTTP Caching</a><br />
+
+          <a href="https://developers.google.com/web/tools/chrome-devtools/dom">Get Started With Viewing And Changing
+            The
+            DOM</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="bootstrap">
+    <h2>
+      <a id="bootstrap" href="https://gitlab.crio.do/crio_bytes/me_bootstrap.git">Bootstrap
+      </a>
+    </h2>
+    <div class="container">
       <br /> <strong> References :</strong> <br />
       <a href="https://getbootstrap.com/docs/5.0/components/alerts/">Bootstrap - Alerts</a><br />
       <a href="https://developers.google.com/web/tools/chrome-devtools/network">Inspect Network Activity In Chrome
@@ -338,15 +379,15 @@
           </a><br />
         </div>
       </div>
-
     </div>
   </div>
+
 
   <img alt="man studying"
     src="https://www.crio.do/static/d89443aa7b8cdbc8495743449a8ad740/f116c/FDT_Desktop_6b0071dc74.webp" />
   <script src="script.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
 </body>

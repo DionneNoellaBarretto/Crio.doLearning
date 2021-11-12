@@ -1,35 +1,62 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(240, 242, 245);
-    font-size: 20px;
-    margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 242, 245);
+  font-size: 20px;
+  margin: 1em;
 }
 
 h1 {
-    color: rgb(20, 240, 240);
-    font-weight: 700;
-    margin-bottom: 50px;
+  color: rgb(20, 240, 240);
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 h2 {
-    color: rgb(25, 47, 248);
-    font-weight: 700;
-    margin-bottom: 40px;
+  color: rgb(25, 47, 248);
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 img {
-    width: 40%;
-    float:right;
-    position: absolute;
-    top: 20%;
-    right: 0;
+  width: 30%;
+  float: right;
+  position: absolute;
+  top: 2%;
+  right: 0;
 }
 
 strong {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.container {
-    margin-top: 50px;
-    padding: 0px 20px;
+
+.bootstrap, .developerTools, .htmlCss, .git{
+    border: 1px solid #000;
+}
+
+/* Snippet from the Bootstrap CSS file */
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
 }
