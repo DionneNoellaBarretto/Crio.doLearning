@@ -15,9 +15,11 @@ h2 {
   color: rgb(25, 47, 248);
   font-weight: 700;
   margin-bottom: 40px;
+  
 }
 
 img {
+  
   width: 30%;
   float: right;
   position: absolute;
