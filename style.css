@@ -32,7 +32,7 @@ strong {
 }
 
 
-.bootstrap, .developerTools, .htmlCss, .git{
+.bootstrap, .developerTools, .htmlCss, .git, .DOM{
     border: 1px solid #000;
 }
 
