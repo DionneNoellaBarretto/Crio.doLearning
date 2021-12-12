@@ -18,13 +18,18 @@ h2 {
   
 }
 
-img {
+/* .logo {
   
   width: 30%;
   float: right;
   position: absolute;
   top: 2%;
   right: 0;
+} */
+
+img {
+  width: 30vw;
+  
 }
 
 strong {
